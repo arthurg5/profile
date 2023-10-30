@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Space+Mono&display=swap');
+
+body {
+  background-color: rgb(208, 196, 196);
+  font-family: "Courier", monospace;
+  color: rgb(53, 42, 42);
+  font-size: 15px;
+  line-height: 15px
+}
+
+h1, h2, h3 {
+  color: rgb(195, 40, 40);
+  font-family: "Agbalumo";
+  font-size: 25px;
+  line-height: 30px
+}
+
+a {
+  color: rgb(106, 117, 212);
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  border: 1px solid rgb(220, 24, 24);
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  margin: 15px auto;
+  width: 400px
+}
+
+
